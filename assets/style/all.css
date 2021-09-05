@@ -164,22 +164,8 @@ a:link, a:visited, a:hover, a:active{
     line-height: 1.5;
 }
 
-.white-title{
-    position: absolute;
-    width: 352px;
-    color: #FFF;
-    font-size: 2.8rem;
-    line-height: 1.5;
-    text-align: center;
-    z-index: 150;
-    top: 51px;
-  /* 隱藏 */
-    max-height: 0%; 
-    overflow: hidden; 
-  }
-
-.classic-pic{
-    position: relative;
+.classic-pic img{
+    width: 635px;
   }
 .classic-contentMiddle{
     flex-direction: row-reverse;
