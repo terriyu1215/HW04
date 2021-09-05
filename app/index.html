@@ -1,0 +1,102 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<section class="banner d-flex">
+  <div class="banner-content container">
+      <h2>Promise-Desert 2020 早春系列<br><span>看得清，才能看得遠</span></h2>
+  </div>
+</section>
+
+<section class="about">
+  <h2 class="title-style">用專業的心，做專業的事</h2>
+  <ul class="about-content container d-flex">
+      <li>
+          <img src="assets/images/icon-dollar.svg" alt="dollar icon" />
+          <h4>單一價格</h4>
+          <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+      </li>
+      <li>
+          <img src="assets/images/icon-clock.svg" alt="clock icon" />
+          <h4>20 分鐘即可取件</h4>
+          <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+      </li>
+      <li>
+          <img src="assets/images/icon-heart.svg" alt="heart icon" />
+          <h4>安心售後服務</h4>
+          <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+      </li>
+      <li>
+          <img src="assets/images/icon-glasses.svg" alt="glasses icon" />
+          <h4>關於鏡片</h4>
+          <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+      </li>
+  </ul>
+</section>
+
+<section class="classic">
+  <h2 class="title-style">經典系列鏡框</h2>
+  <div class="classic-content-all">
+      <div class="classic-contentTop classic-fontStyle container d-flex">
+          <div class="classic-pic">
+              <img src="assets/images/product-1.png" alt="">
+              <div class="white-title">
+                  <h3><img src="assets/images/icon-diamond-white.svg" alt="" class="iconPic">optical</h3>
+              </div>
+          </div>
+          <div class="classic-title">
+              <h3 class="d-flex"><img src="assets/images/icon-diamond.svg" alt="">optical</h3>
+          </div>
+      </div>
+      <div class="classic-contentMiddle classic-fontStyle container d-flex">
+          <div class="classic-pic">
+              <img src="assets/images/product-2-color.png" alt="">
+              <div class="white-title">
+                  <h3><img src="assets/images/icon-sun-white.svg" alt="" class="iconPic">sunglasses</h3>
+              </div>
+          </div>
+          <div class="classic-title">
+              <h3 class="d-flex"><img src="assets/images/icon-sun.svg" alt="">sunglasses</h3>
+          </div>
+      </div>
+      <div class="classic-contentBottom classic-fontStyle container d-flex">
+          <div class="classic-pic">
+              <img src="assets/images/product-3.png" alt="">
+              <div class="white-title">
+                  <h3><img src="assets/images/icon-thunder-white.svg" alt="" class="iconPic">functional</h3>
+              </div>
+          </div>
+          <div class="classic-title">
+              <h3 class="d-flex"><img src="assets/images/icon-thunder.svg" alt="">functional</h3>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2 class="title-style">聯絡我們</h2>
+  <div class="contact-content">
+      <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+      <!-- action是傳送到儲存的資料庫位置 -->
+      <form action="#">
+          <div class="form-item">
+              <label for="name">姓名</label><br>
+              <input id="name" type="text" placeholder="陳小明" name="name"><br>
+              <label for="phone">聯絡電話</label><br>
+              <input id="phone" type="text" placeholder="0912-345-678" name="phone"><br>
+              <label for="mail">電子郵件</label><br>
+              <input id="mail" type="text" placeholder="example@mail.com" name="mail">
+              <br>
+              <label for="suggest">意見反應</label><br>
+              <textarea name="content" placeholder="請輸入您的意見"></textarea><br>
+              <input type="checkbox" id="privacy">
+              <!-- for="label 要綁定的元素的 id "-->
+              <label for="privacy">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+          </div>
+          <input type="submit" value="確認送出" class="submit">
+      </form>
+  </div>
+</section>
